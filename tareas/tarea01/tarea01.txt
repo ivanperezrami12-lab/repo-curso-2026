@@ -1,0 +1,51 @@
+=== TAREA 01: EJERCICIOS CLI ===
+
+$ pwd
+/c/Users/sandr/Documents/curso-e520/econ-520
+
+$ cd /
+$ pwd
+/
+
+$ cd
+$ pwd
+/c/Users/sandr
+
+$ cd ..
+$ pwd
+/c/Users/sandr/Documents/curso-e520
+
+$ cd ~
+$ pwd
+/c/Users/sandr
+
+$ cd /etc
+$ pwd
+/etc
+
+$ mkdir -p prueba/subcarpeta
+
+$ echo 'texto de prueba' > prueba/archivo.txt
+
+$ cat prueba/archivo.txt
+texto de prueba
+
+$ cp prueba/archivo.txt prueba/subcarpeta/copia.txt
+
+$ mv prueba/subcarpeta/copia.txt prueba/subcarpeta/renombrado.txt
+
+$ rm prueba/subcarpeta/renombrado.txt
+
+$ rmdir prueba/subcarpeta
+
+$ rm prueba/archivo.txt
+
+$ rmdir prueba
+
+$ ls /etc | wc -l
+26
+
+$ cat lista_temp.txt | sort | uniq
+banana
+manzana
+pera
